@@ -1,16 +1,22 @@
-### Hi there 👋
+# 안녕하세요, 저는 풀스택을 꿈꾸는 주니어 개발자입니다.
 
-<!--
-**himomohi/himomohi** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+저의 이름은 김성민 입니다. 프로그램 개발 , 각종 트렌드에 에 매우 열정적입니다. 특히, 백엔드와 프론트엔드 모두에 관심을 가지고 있어 풀스택 개발을 목표로 하고 있습니다.
 
-Here are some ideas to get you started:
+## 👨‍💻 기술 스택
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+- 프론트엔드: HTML, CSS, JavaScript, React.js
+- 백엔드: Node.js, Express.js, Python, Django
+- 데이터베이스: MySQL, MongoDB
+- 기타: Git, Docker, AWS
+
+## 🎓 학습 중인 기술
+
+- TypeScript
+- GraphQL
+- Go
+
+## 📬 연락처
+
+- 이메일: himomohi@gmail.com
+
+감사합니다!
