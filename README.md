@@ -4,13 +4,12 @@
 
 ## 👨‍💻 기술 스택
 
-- 프론트엔드: HTML, CSS, JavaScript, React.js
+- 프론트엔드: HTML, CSS, JavaScript, React, TypeScript,tailwindCss
 - 백엔드: Java, Node.js, Express.js, Python, Django
 - 데이터베이스: MySQL, MongoDB
 - 기타: Git, AWS , Cad,3DS MAX, photoshop, illustrator
 ## 🎓 학습 중인 기술
-
-- TypeScript
+- Rust
 - GraphQL
 - Go
 
