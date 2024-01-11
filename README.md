@@ -8,6 +8,13 @@
 - 백엔드: Java, Node.js, Express.js, Python, Django
 - 데이터베이스: MySQL, MongoDB
 - 기타: Git, AWS , Cad,3DS MAX, photoshop, illustrator
+## 🎇Custom GPT
+- [VBA MASTER!](https://chat.openai.com/g/g-MaUnLcGuA-vbamaster)
+  ㄴ 엑셀 매크로 기능 코드 블럭을 작성하도록 도와줍니다.
+- [Logo and Text Design Expert](https://chat.openai.com/g/g-tSnE7MhMS-logo-and-text-design-expert)
+  ㄴ 작성된 텍스트를 기준으로 로고 제작
+- [SNS Posing](https://chat.openai.com/g/g-JSqVYW2E3-sns-posting)
+  ㄴ 사진을 업로드하면 SNS포스팅용 문구를 작성해줍니다.
 ## 🎓 학습 중인 기술
 - Rust
 - GraphQL
