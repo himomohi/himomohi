@@ -22,8 +22,14 @@ contributions, rather than an exhaustive inventory of technologies.
 - Update both language versions together; preserve the top language switch.
 - Preserve the owner's voice: practical, curious, product-oriented, and direct.
 - Lead with selected work, applied capabilities, and public contribution records.
+- Keep the contribution record reasonably complete for meaningful public upstream
+  activity authored by `@himomohi`: separate merged PRs, active open/draft PRs,
+  maintained fork extensions, and any historical closed-unmerged proposal that is
+  intentionally retained for transparency. Do not count recruitment assignments
+  or unrelated exercises as open-source contributions.
 - Distinguish original work, fork extensions, proposed work, and merged upstream PRs.
-- Verify claims against public repositories and PRs. Date all static project metrics.
+- Verify claims against public repositories and PRs. Date all static project metrics
+  and re-check contribution statuses whenever this section is edited.
 - Do not imply that a fork's entire upstream codebase was written by the owner.
 - Preserve material caveats, including the Codex Pet HUD Windows preview status.
 - Keep capabilities general and evidence-led. Exclude employment and workplace
@@ -40,10 +46,12 @@ contributions, rather than an exhaustive inventory of technologies.
 ## Verification and delivery
 
 Check both languages, language-switch targets, section anchors, public project
-links, image paths, SVG XML validity, and compact-screen readability. Preserve
-history and unrelated files. Use a feature branch and pull request for changes;
-merge only within the owner's explicit authorization and repository protections.
-Never force-push or claim a rendering, test, or publication check that was not run.
+links, contribution status labels, image paths, SVG XML validity, and compact-screen
+readability. Preserve history and unrelated files. Use a feature branch and pull
+request for changes; merge only within the owner's explicit authorization and
+repository protections. Never force-push or claim a rendering, test, or publication
+check that was not run.
 
-The owner requested the English-first bilingual redesign on 2026-09-06. This guide
+The owner requested the English-first bilingual redesign on 2026-09-06 and then
+requested a complete public open-source contribution record the same day. This guide
 replaces the obsolete Korean-only, mandatory-animation, and 2025-layout rules.
