@@ -81,14 +81,45 @@ I like the whole journey: understanding the problem, shaping the experience, imp
 
 ## Open-source contributions
 
-I also work in other people's codebases. These contributions were **merged upstream**:
+I contribute beyond my own repositories. The record below separates **code already merged upstream**, **active proposals still under review**, and **fork extensions I maintain**, so their status is not overstated.
 
-| Project | Contribution | Public record |
+### Merged upstream
+
+| Project | Contribution shipped upstream | Public record |
 | :--- | :--- | :--- |
-| **Paseo** | Integrated a 1,603-key Korean locale with resource-parity and browser language-switch coverage, building on an earlier community translation and preserving its contributor's credit. | [Merged PR #2895](https://github.com/getpaseo/paseo/pull/2895) |
-| **Orca** | Fixed mobile WebSocket recovery when a close event never arrives, with a deterministic regression test for the stuck-connection case. | [Merged PR #11368](https://github.com/stablyai/orca/pull/11368) |
+| **OpenCodex** | Added Windows startup-safety diagnostics, a native tray controller, lifecycle-safe install/update behavior, and management UI/API support. The merged PR spans 54 files and includes focused Windows lifecycle, security, CLI, and UI verification. | [Merged PR #306](https://github.com/lidge-jun/opencodex/pull/306) |
+| **Orca** | Fixed mobile RPC recovery when a half-open WebSocket stops receiving traffic but never emits `onclose`. Added deterministic regression coverage to prove a single replacement connection without reconnect storms. | [Merged PR #11368](https://github.com/stablyai/orca/pull/11368) |
+| **Paseo** | Integrated Korean UI localization with parity across 1,603 English keys, locale resolution, language switching, and cross-platform resource registration while preserving the earlier translator's credit. | [Merged PR #2895](https://github.com/getpaseo/paseo/pull/2895) |
 
-Original products, fork extensions, and upstream contributions are different kinds of work. I keep that distinction explicit.
+### Active upstream proposals
+
+These are public contributions I have submitted, but they are **not presented as merged work**.
+
+| Project | Proposal | Current status |
+| :--- | :--- | :--- |
+| **Orca** | Add an opt-in mobile **double-tap → Tab** shortcut with gesture-conflict cancellation, terminal lifecycle resets, persisted settings, and focused routing tests. | [PR #10239](https://github.com/stablyai/orca/pull/10239) — open |
+| **Delta** | Add first-party Korean localization: 834 runtime strings plus storyboard/XIB resources, Xcode resource registration, Swift string extraction, and remaining hardcoded user-facing strings. | [PR #554](https://github.com/rileytestut/Delta/pull/554) — draft; static validation complete, runtime validation pending |
+| **oh-my-pi** | Add Command Code as a built-in provider through its documented Provider API, including model discovery, API-key login, and model-aware routing across Anthropic Messages and OpenAI-compatible Chat Completions. | [PR #9564](https://github.com/can1357/oh-my-pi/pull/9564) — open |
+
+### Maintained fork extensions
+
+| Project | Extension work |
+| :--- | :--- |
+| **Aseprite MCP Tools** | Preserved the upstream 104-tool Aseprite surface and combined it with a WebSocket live bridge so generated edits can run through an open Aseprite UI, with CLI fallback and both upstream attributions retained. [Fork PR #1](https://github.com/himomohi/aseprite-mcp/pull/1) |
+| **LÖVE2D MCP** | Turned the original proof of concept into a secure-by-default local bridge: loopback-only access, shared-token authentication, restricted optional Lua execution, bounded requests, Zod validation, regression tests, and a safer game-defined mutation API. [Fork PR #1](https://github.com/himomohi/love2d-mcp/pull/1) |
+
+### Public product feedback
+
+- **OpenAI Codex** — proposed a subtle, accessibility-aware realtime-voice processing cue with explicit state-gating and regression-test acceptance criteria. [Issue #35082](https://github.com/openai/codex/issues/35082) — open.
+
+<details>
+<summary>Earlier closed upstream proposal</summary>
+
+- **HashLips Art Engine** — Korean README translation. [PR #1631](https://github.com/HashLips/hashlips_art_engine/pull/1631) was closed without merge in 2025, so it is kept only as historical public contribution activity rather than shipped upstream work.
+
+</details>
+
+Original products, fork extensions, active proposals, and merged upstream contributions are different kinds of work. I keep those boundaries explicit.
 
 ## How I build
 
@@ -107,4 +138,4 @@ I enjoy exchanging ideas about practical AI products, developer tooling, data wo
 [GitHub](https://github.com/himomohi) · [X / @himomohi](https://x.com/himomohi) · [Threads / @appcast](https://www.threads.com/@appcast)
 
 ---
-<sub>Public project details, metrics, and merged-PR status reviewed on 2026-09-06. Metrics are a dated snapshot, not live counters.</sub>
+<sub>Public project details, metrics, PR status, and issue status reviewed on 2026-09-06. Metrics are a dated snapshot, not live counters.</sub>

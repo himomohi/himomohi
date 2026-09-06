@@ -81,14 +81,45 @@
 
 ## 오픈소스 기여
 
-제 저장소뿐 아니라 다른 프로젝트의 코드베이스에서도 작업합니다. 다음 기여는 **원본 저장소에 병합되었습니다.**
+제 저장소 밖의 코드베이스에도 기여합니다. 아래 기록은 **원본 저장소에 실제 병합된 코드**, **현재 리뷰 중인 제안**, **제가 유지하는 포크 확장**을 구분해 상태를 과장하지 않도록 정리했습니다.
 
-| 프로젝트 | 기여 내용 | 공개 기록 |
+### 원본 저장소에 병합된 기여
+
+| 프로젝트 | 실제 반영된 기여 | 공개 기록 |
 | :--- | :--- | :--- |
-| **Paseo** | 기존 커뮤니티 번역과 기여자 표기를 이어받아 1,603개 키의 한국어 로케일을 통합하고, 번역 리소스 일치 검사와 브라우저 언어 전환 테스트를 보강했습니다. | [병합된 PR #2895](https://github.com/getpaseo/paseo/pull/2895) |
-| **Orca** | 종료 이벤트가 오지 않는 모바일 WebSocket의 복구 흐름을 수정하고, 연결이 멈춘 상태를 재현하는 회귀 테스트를 추가했습니다. | [병합된 PR #11368](https://github.com/stablyai/orca/pull/11368) |
+| **OpenCodex** | Windows 시작 안전성 진단, 네이티브 트레이 컨트롤러, 설치·업데이트 시 수명주기 안전 처리, 관리 UI/API를 추가했습니다. 병합 PR은 54개 파일에 걸쳐 Windows 수명주기·보안·CLI·UI 검증을 포함합니다. | [병합 PR #306](https://github.com/lidge-jun/opencodex/pull/306) |
+| **Orca** | 모바일 RPC가 반쯤 끊긴 WebSocket에서 수신이 멈추고 `onclose`도 오지 않을 때 정상 복구하도록 수정했습니다. 재연결 폭주 없이 하나의 대체 연결만 만들어지는지 확인하는 결정적 회귀 테스트도 추가했습니다. | [병합 PR #11368](https://github.com/stablyai/orca/pull/11368) |
+| **Paseo** | 기존 번역자의 공로를 유지하면서 1,603개 영어 키와 대응되는 한국어 UI, 로케일 해석, 언어 전환, 크로스플랫폼 리소스 등록을 통합했습니다. | [병합 PR #2895](https://github.com/getpaseo/paseo/pull/2895) |
 
-직접 만든 제품, 기존 프로젝트의 포크 확장, 원본 저장소에 대한 기여는 서로 다른 작업입니다. 소개할 때도 이 차이를 분명히 구분합니다.
+### 현재 리뷰 중인 upstream 기여
+
+아래는 제가 공개적으로 제출한 기여이지만 **아직 병합된 작업처럼 소개하지 않습니다.**
+
+| 프로젝트 | 제안 내용 | 현재 상태 |
+| :--- | :--- | :--- |
+| **Orca** | 모바일 터미널에 선택형 **더블탭 → Tab** 단축 동작을 추가하고, 스크롤·링크·TUI 탭 등 기존 제스처와 충돌하지 않도록 취소 규칙, 터미널 수명주기 초기화, 설정 저장, 집중 회귀 테스트를 구현했습니다. | [PR #10239](https://github.com/stablyai/orca/pull/10239) — open |
+| **Delta** | 834개 런타임 문자열과 storyboard/XIB 리소스, Xcode 리소스 등록, Swift 문자열 추출, 남아 있던 하드코딩 UI까지 포함한 1차 한국어 현지화를 추가했습니다. | [PR #554](https://github.com/rileytestut/Delta/pull/554) — draft; 정적 검증 완료, 런타임 검증 대기 |
+| **oh-my-pi** | 공식 Provider API를 사용하는 Command Code 제공자를 추가했습니다. 모델 검색, API 키 로그인, Anthropic Messages와 OpenAI 호환 Chat Completions를 모델 종류에 맞춰 나누는 라우팅과 테스트를 포함합니다. | [PR #9564](https://github.com/can1357/oh-my-pi/pull/9564) — open |
+
+### 유지 중인 포크 확장
+
+| 프로젝트 | 확장한 내용 |
+| :--- | :--- |
+| **Aseprite MCP Tools** | 원본의 104개 Aseprite 도구를 유지하면서 WebSocket Live Bridge를 결합해 생성된 편집 명령을 실행 중인 Aseprite UI에 전달하고, CLI fallback과 두 원본 프로젝트의 기여자 표기를 함께 보존했습니다. [포크 PR #1](https://github.com/himomohi/aseprite-mcp/pull/1) |
+| **LÖVE2D MCP** | 원본 PoC를 보안 기본값을 갖춘 로컬 브리지로 확장했습니다. loopback 제한, 공유 토큰 인증, 제한된 선택형 Lua 실행, 요청 한계, Zod 검증, 회귀 테스트, 게임이 명시적으로 허용하는 상태 변경 API를 추가했습니다. [포크 PR #1](https://github.com/himomohi/love2d-mcp/pull/1) |
+
+### 공개 제품 피드백
+
+- **OpenAI Codex** — 실시간 음성 모드에서 사용자의 발화가 끝난 뒤 조용히 처리 중인 상태를 명확히 알릴 수 있도록, 접근성과 상태 중복 방지·테스트 기준을 포함한 짧은 처리 신호를 제안했습니다. [Issue #35082](https://github.com/openai/codex/issues/35082) — open.
+
+<details>
+<summary>과거에 종료된 upstream 제안</summary>
+
+- **HashLips Art Engine** — 한국어 README 번역. [PR #1631](https://github.com/HashLips/hashlips_art_engine/pull/1631)은 2025년에 병합 없이 종료되었기 때문에 실제 반영된 기여가 아니라 과거 공개 기여 활동으로만 구분해 둡니다.
+
+</details>
+
+직접 만든 제품, 포크 확장, 리뷰 중인 제안, 원본 저장소에 병합된 기여는 서로 다른 작업입니다. 소개할 때도 이 경계를 분명히 구분합니다.
 
 ## 만드는 방식
 
@@ -107,4 +138,4 @@
 [GitHub](https://github.com/himomohi) · [X / @himomohi](https://x.com/himomohi) · [Threads / @appcast](https://www.threads.com/@appcast)
 
 ---
-<sub>공개 프로젝트 정보·지표·PR 병합 상태 확인일: 2026-09-06. 수치는 해당 날짜의 기록이며 실시간 카운터가 아닙니다.</sub>
+<sub>공개 프로젝트 정보·지표·PR 상태·이슈 상태 확인일: 2026-09-06. 수치는 해당 날짜의 기록이며 실시간 카운터가 아닙니다.</sub>
