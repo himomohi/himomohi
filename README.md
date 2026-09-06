@@ -8,7 +8,7 @@
 
 <h1 align="center">AICASTER · Appcaster</h1>
 <p align="center">
-  <strong>Data Engineer &amp; AI-native Product Builder</strong><br>
+  <strong>Applied AI Engineer · AI Agents · Data Systems</strong><br>
   Building as Appcaster · <a href="https://github.com/himomohi">@himomohi</a>
 </p>
 <p align="center">
@@ -18,7 +18,7 @@
   <a href="#connect">Connect</a>
 </p>
 
-I'm a data engineer and an AI-native product builder. I turn complicated workflows into software people can actually use. My work spans **data engineering, AI integrations, native desktop apps, and creative developer tools**.
+I build AI agents, developer tools, and production software — from data and model integration to UX, testing, and release. My work spans **data engineering, AI integrations, native desktop apps, and creative developer tools**.
 
 I like the whole journey: understanding the problem, shaping the experience, implementing it, and staying with it through testing, release, and improvement.
 
