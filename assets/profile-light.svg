@@ -1,0 +1,32 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="1012" height="326" viewBox="0 0 1012 326" role="img" aria-labelledby="title desc">
+<title id="title">AICASTER — Useful software. Built all the way.</title>
+<desc id="desc">AICASTER's open-source workshop: data systems, AI products, and creative tools. A geometric terminal-cat mark represents a playful approach to practical engineering.</desc>
+<rect width="1012" height="326" rx="18" fill="#F2F5EF"/>
+<path d="M20 1H992" stroke="#CAD8D1"/>
+<path d="M44 1H237" stroke="#166C60" stroke-width="3"/>
+<path d="M750 34V292M786 34V292M822 34V292M858 34V292M894 34V292M930 34V292M966 34V292M714 70H978M714 106H978M714 142H978M714 178H978M714 214H978M714 250H978" fill="none" stroke="#CAD8D1" stroke-opacity=".38"/>
+<g font-family="Arial, Helvetica, sans-serif">
+<text x="44" y="48" fill="#4B6461" font-size="12" letter-spacing="2.5">AICASTER / OPEN-SOURCE WORKSHOP</text>
+<text x="40" y="133" fill="#152B2B" font-size="64" font-weight="700" letter-spacing="-2.5">Useful software.</text>
+<text x="40" y="207" fill="#166C60" font-size="64" font-weight="700" letter-spacing="-2.5">Built all the way.</text>
+<text x="44" y="249" fill="#4B6461" font-size="13" letter-spacing="1.45">DATA SYSTEMS · AI PRODUCTS · CREATIVE TOOLS</text>
+<path d="M44 272H665" stroke="#CAD8D1"/>
+<text x="44" y="300" fill="#152B2B" font-size="11" letter-spacing="2">AICASTER</text>
+<text x="665" y="300" fill="#4B6461" font-size="11" text-anchor="end" letter-spacing="1">@himomohi</text>
+</g>
+<rect x="755" y="76" width="188" height="162" rx="22" fill="#E4ECE4" stroke="#CAD8D1"/>
+<g fill="#4B6461"><circle cx="774" cy="94" r="2"/><circle cx="783" cy="94" r="2"/><circle cx="792" cy="94" r="2"/></g>
+<path d="M772 106H926" stroke="#CAD8D1"/>
+<g fill="none" stroke="#166C60" stroke-width="5" stroke-linecap="round" stroke-linejoin="round">
+<path d="M789 144L779 155L789 166M909 144L919 155L909 166"/>
+<path d="M814 150V129L832 141H866L884 129V150M814 150V173Q814 191 849 191Q884 191 884 173V150"/>
+<path d="M829 158H835M863 158H869M842 174L849 179L856 174"/>
+</g>
+<path d="M844 165H854L849 170Z" fill="#945A32"/>
+<rect x="818" y="208" width="63" height="3" rx="1.5" fill="#CAD8D1"/>
+<path d="M943 155H965V256H907" fill="none" stroke="#166C60" stroke-opacity=".6"/>
+<rect x="898" y="250" width="12" height="12" rx="3" fill="#945A32"/>
+<circle cx="735" cy="56" r="5" fill="#166C60"/>
+<path d="M735 61V155H755" fill="none" stroke="#166C60" stroke-opacity=".6"/>
+<text x="849" y="283" fill="#4B6461" font-family="Arial, Helvetica, sans-serif" font-size="10" letter-spacing="2" text-anchor="middle">ENGINEER × MAKER</text>
+</svg>
