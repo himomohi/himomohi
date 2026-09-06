@@ -135,7 +135,7 @@ My recurring interests are agent-assisted development, procedural 2D games, pixe
 
 I enjoy exchanging ideas about practical AI products, developer tooling, data workflows, and creative software.
 
-[GitHub](https://github.com/himomohi) · [X / @himomohi](https://x.com/himomohi) · [Threads / @appcast](https://www.threads.com/@appcast)
+[GitHub](https://github.com/himomohi) · [X / @metdoyagi](https://x.com/metdoyagi) · [Threads / @appcast](https://www.threads.com/@appcast)
 
 ---
 <sub>Public project details, metrics, PR status, and issue status reviewed on 2026-09-06. Metrics are a dated snapshot, not live counters.</sub>

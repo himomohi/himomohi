@@ -135,7 +135,7 @@
 
 실용적인 AI 제품, 개발 도구, 데이터 작업 흐름, 창작 소프트웨어에 관한 아이디어를 나누는 것을 좋아합니다.
 
-[GitHub](https://github.com/himomohi) · [X / @himomohi](https://x.com/himomohi) · [Threads / @appcast](https://www.threads.com/@appcast)
+[GitHub](https://github.com/himomohi) · [X / @metdoyagi](https://x.com/metdoyagi) · [Threads / @appcast](https://www.threads.com/@appcast)
 
 ---
 <sub>공개 프로젝트 정보·지표·PR 상태·이슈 상태 확인일: 2026-09-06. 수치는 해당 날짜의 기록이며 실시간 카운터가 아닙니다.</sub>
